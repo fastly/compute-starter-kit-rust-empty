@@ -1,5 +1,5 @@
+authors = ["<oss@fastly.com>"]
+description = "An empty starter kit project template."
+language = "rust"
 manifest_version = 2
 name = "Empty starter for Rust"
-description = "An empty starter kit project template."
-authors = ["<oss@fastly.com>"]
-language = "rust"
