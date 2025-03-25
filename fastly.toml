@@ -1,8 +1,11 @@
-authors = ["<oss@fastly.com>"]
-description = "An empty starter kit project template."
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml/
+
+name = "Empty starter for Rust"
+description = "Starter kit that provides an empty service."
+authors = ["<devrel@fastly.com>"]
 language = "rust"
 manifest_version = 3
-name = "Empty starter for Rust"
 
 [scripts]
-  build = "cargo build --bin fastly-compute-project --release --target wasm32-wasi --color always"
+  build = "cargo build --profile release"
